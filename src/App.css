@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway:wght@600&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+.section{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register_section{
+  background-color: #81ecec;
+}
+.login_section{
+  background-color: #fab1a0;
+}
+.box{
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+}
+
+.register_box{
+  width: 50vw;
+  background-color: #55efc4;
+}
+.box h2{
+  text-align: center;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+  padding: 20px 0;
+}
+
+.login_box{
+  padding: 2rem 3rem;
+  width: 40vw;
+  background-color: #81ecec;
+}
+.login_box a{
+  display: block;
+  padding-bottom: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+/* profile */
+.profile_container{
+  position: relative;
+}
+.profile_container::after{
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid;
+    width: 50rem;
+    top: 11rem;
+    left: 15rem;
+}
+
+.profile_img img{
+  width: 160px;
+  height: 140px;
+  margin-left: 40%;
+  }
+
+
+.editProfile_section{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+
+.editProfile_section h2{
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+  font-size: 2rem;
+}
+
+.editProfile_container{
+  width: 40vw;
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3)
+}
+
+.profileBtn{
+  height: 2.5rem;
+  padding: -3px -5px;
+  width: 6rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: cadetblue;
+}
+
+.classList li{
+  list-style: none;
+}
+
+.classList li a{
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+
+
+/**************************   organization   *************************/
+.search_box{
+  width: 40vw;
+  padding: 1.5rem 1rem 0rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  background-color: #fab1a0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.orgProfile_container{
+  position: relative;
+}
+.orgProfile_container::after{
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid;
+  width: 64.4rem;
+  top: 15rem;
+  left: 0rem;
+}
+
+.orgProfile_img img{
+  width: 160px;
+  height: 140px;
+  margin-left: 40%;
+  border-radius: 50%;
+  }
+
+  .request_section{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+    position: absolute;
+    top: 37%;
+    right: 8%;
+}
+
+.request_box{
+border-radius: 10px;
+padding: 2rem 4rem;
+box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+width: 35vw;
+background-color: #fab1a0;
+
+}
+.request_box h2{
+    padding: 20px 0;
+font-size: 2rem;
+text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+text-align: center;
+}
+
+
+.showGallery button{
+  padding: 10px 40px;
+    font-size: 20px;
+}
+
+
+.searchBtn{
+  padding: 0.5rem 2rem;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: #fab1a0;
+  border-radius: 12px;
+  color: #dfe6e9;
+  transition: all 0.3s linear;
+}
+
+.searchBtn:hover{
+  background-color: #dfe6e9;
+  color: #fab1a0;
+}
+ 
+.banner_search_section input{
+  outline: none;
+  border: none;
+}
